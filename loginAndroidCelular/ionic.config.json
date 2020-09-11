@@ -1,7 +1,8 @@
 {
   "name": "loginAndroidCelular",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
