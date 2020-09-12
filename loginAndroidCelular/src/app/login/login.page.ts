@@ -22,6 +22,10 @@ export class LoginPage  {
       console.log('Succesfully login in!!');
       this.router.navigateByUrl('/bienvenido');
     }
+    else{
+      console.log('Ocurrio un error!!');
+      this.router.navigateByUrl('/error');
+    }
   }
 
    onRegisterLogin()

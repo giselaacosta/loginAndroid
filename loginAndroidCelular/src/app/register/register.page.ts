@@ -26,6 +26,11 @@ export class RegisterPage {
       
       this.router.navigateByUrl('/bienvenido');
 
+
+    }
+    else{
+      console.log('Ocurrio un error!!');
+      this.router.navigateByUrl('/error');
     }
   }
 
