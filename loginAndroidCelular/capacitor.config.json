@@ -1,5 +1,5 @@
 {
-  "appId": "com.loginAndroidCelular.app",
+  "appId": "io.ionic.starter",
   "appName": "loginAndroidCelular",
   "bundledWebRuntime": false,
   "npmClient": "npm",
