@@ -1,5 +1,5 @@
 {
-  "appId": "io.ionic.starter",
+  "appId": "com.loginAndroidCelular.app",
   "appName": "loginAndroidCelular",
   "bundledWebRuntime": false,
   "npmClient": "npm",
@@ -7,8 +7,18 @@
   "plugins": {
     "SplashScreen": {
       "launchShowDuration": 0,
-      "launchAutoHide":false
+      "launchAutoHide": false
     }
   },
-  "cordova": {}
+  "cordova": {
+    "preferences": {
+      "ScrollEnabled": "false",
+      "BackupWebStorage": "none",
+      "SplashMaintainAspectRatio": "true",
+      "FadeSplashScreenDuration": "300",
+      "SplashShowOnlyFirstTime": "false",
+      "SplashScreen": "screen",
+      "SplashScreenDelay": "3000"
+    }
+  }
 }
